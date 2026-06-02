@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charchit Panchal | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-enter">
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-core">
+      <span class="loader-ring"></span>
+      <p>Loading Portfolio...</p>
+    </div>
+  </div>
+
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">CP</a>
+      <nav class="nav-links" id="nav-links">
+        <a class="page-link" href="index.html">Home</a>
+        <a class="page-link" href="about.html">About</a>
+        <a class="page-link" href="projects.html">Projects</a>
+        <a class="active page-link" href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero reveal">
+      <div class="container">
+        <p class="eyebrow"><span class="dot"></span> Get In Touch</p>
+        <h1 class="page-title">Let's connect and build something meaningful</h1>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container cards-grid">
+        <article class="card tilt-card">
+          <h3>Email</h3>
+          <p><a href="mailto:charchitpanchal1302@gmail.com">charchitpanchal1302@gmail.com</a></p>
+        </article>
+        <article class="card tilt-card">
+          <h3>Phone</h3>
+          <p><a href="tel:+917067400495">+91 7067400495</a></p>
+        </article>
+        <article class="card tilt-card">
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/in/charchit-panchal-260262280/" target="_blank" rel="noreferrer">charchit-panchal-260262280</a></p>
+        </article>
+        <article class="card tilt-card">
+          <h3>GitHub</h3>
+          <p><a href="https://github.com/charchitpanchal" target="_blank" rel="noreferrer">charchitpanchal</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <article class="card">
+          <h2>Send Me a Message</h2>
+          <p class="meta">This form is powered by EmailJS. Add your keys in `script.js` to activate sending.</p>
+          <form id="contact-form" class="contact-form">
+            <div class="form-row">
+              <label for="name">Your Name</label>
+              <input id="name" name="from_name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Your Email</label>
+              <input id="email" name="from_email" type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Enter subject" required>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">© <span id="year"></span> Charchit Panchal</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

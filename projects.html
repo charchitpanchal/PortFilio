@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charchit Panchal | Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-enter">
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-core">
+      <span class="loader-ring"></span>
+      <p>Loading Portfolio...</p>
+    </div>
+  </div>
+
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">CP</a>
+      <nav class="nav-links" id="nav-links">
+        <a class="page-link" href="index.html">Home</a>
+        <a class="page-link" href="about.html">About</a>
+        <a class="active page-link" href="projects.html">Projects</a>
+        <a class="page-link" href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section page-hero reveal">
+      <div class="container">
+        <p class="eyebrow"><span class="dot"></span> My Work</p>
+        <h1 class="page-title">Projects I have built so far</h1>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container cards-grid">
+        <article class="card tilt-card">
+          <div class="project-thumb thumb-one" role="img" aria-label="Data analysis dashboard preview"></div>
+          <h3>Trading Bot / Student Data Analysis</h3>
+          <p class="meta">Present</p>
+          <p>
+            Built a Python project to analyze student performance data with Pandas and NumPy.
+            Performed cleaning, preprocessing and trend visualization.
+          </p>
+          <p><strong>Tech:</strong> Python, Pandas, NumPy, Matplotlib</p>
+        </article>
+
+        <article class="card tilt-card">
+          <div class="project-thumb thumb-two" role="img" aria-label="Automation workflow preview"></div>
+          <h3>Python Automation & Data Processing</h3>
+          <p class="meta">Present</p>
+          <p>
+            Automated Excel and CSV processing tasks with robust exception handling,
+            saving time in repetitive reporting workflows.
+          </p>
+          <p><strong>Tech:</strong> Python, Pandas, NumPy, Excel, CSV</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="copyright">© <span id="year"></span> Charchit Panchal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
