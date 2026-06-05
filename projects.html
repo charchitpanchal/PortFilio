@@ -1,78 +1,186 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charchit Panchal | Projects</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Charchit Panchal</title>
+
+    <meta name="description"
+          content="Java and Spring Boot projects developed by Charchit Panchal including ATM Management System, Student Management System and Employee Management System.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="page-enter">
-  <div class="preloader" id="preloader" aria-hidden="true">
-    <div class="preloader-core">
-      <span class="loader-ring"></span>
-      <p>Loading Portfolio...</p>
-    </div>
-  </div>
 
-  <div class="bg-orb orb-one"></div>
-  <div class="bg-orb orb-two"></div>
-  <div class="bg-orb orb-three"></div>
+<body>
 
-  <header class="site-header">
+<header class="site-header">
+
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">CP</a>
-      <nav class="nav-links" id="nav-links">
-        <a class="page-link" href="index.html">Home</a>
-        <a class="page-link" href="about.html">About</a>
-        <a class="active page-link" href="projects.html">Projects</a>
-        <a class="page-link" href="contact.html">Contact</a>
-      </nav>
-      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">Menu</button>
+
+        <a class="brand" href="index.html">CP</a>
+
+        <nav class="nav-links" id="nav-links">
+            <a class="page-link" href="index.html">Home</a>
+            <a class="page-link" href="about.html">About</a>
+            <a class="active page-link" href="projects.html">Projects</a>
+            <a class="page-link" href="contact.html">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menu-btn">Menu</button>
+
     </div>
-  </header>
 
-  <main>
-    <section class="section page-hero reveal">
-      <div class="container">
-        <p class="eyebrow"><span class="dot"></span> My Work</p>
-        <h1 class="page-title">Projects I have built so far</h1>
-      </div>
+</header>
+
+<main>
+
+    <section class="section page-hero">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                My Projects
+            </p>
+
+            <h1 class="page-title">
+                Java & Spring Boot Development Projects
+            </h1>
+
+        </div>
+
     </section>
 
-    <section class="section reveal">
-      <div class="container cards-grid">
-        <article class="card tilt-card">
-          <div class="project-thumb thumb-one" role="img" aria-label="Data analysis dashboard preview"></div>
-          <h3>Trading Bot / Student Data Analysis</h3>
-          <p class="meta">Present</p>
-          <p>
-            Built a Python project to analyze student performance data with Pandas and NumPy.
-            Performed cleaning, preprocessing and trend visualization.
-          </p>
-          <p><strong>Tech:</strong> Python, Pandas, NumPy, Matplotlib</p>
-        </article>
+    <section class="section">
 
-        <article class="card tilt-card">
-          <div class="project-thumb thumb-two" role="img" aria-label="Automation workflow preview"></div>
-          <h3>Python Automation & Data Processing</h3>
-          <p class="meta">Present</p>
-          <p>
-            Automated Excel and CSV processing tasks with robust exception handling,
-            saving time in repetitive reporting workflows.
-          </p>
-          <p><strong>Tech:</strong> Python, Pandas, NumPy, Excel, CSV</p>
-        </article>
-      </div>
+        <div class="container cards-grid">
+
+            <!-- Project 1 -->
+
+            <article class="card">
+
+                <h3>ATM Management System</h3>
+
+                <p class="meta">
+                    Core Java Project
+                </p>
+
+                <p>
+                    Developed a console-based ATM application using Java and
+                    Object-Oriented Programming principles. The system
+                    simulates real banking operations while maintaining clean
+                    and modular code architecture.
+                </p>
+
+                <h4>Key Features</h4>
+
+                <ul>
+                    <li>PIN Authentication</li>
+                    <li>Cash Withdrawal</li>
+                    <li>Cash Deposit</li>
+                    <li>Balance Inquiry</li>
+                    <li>Transaction History</li>
+                    <li>Exception Handling</li>
+                </ul>
+
+                <p>
+                    <strong>Tech Stack:</strong>
+                    Java, OOP, Collections Framework, File Handling
+                </p>
+
+            </article>
+
+            <!-- Project 2 -->
+
+            <article class="card">
+
+                <h3>Student Management System</h3>
+
+                <p class="meta">
+                    Spring Boot Project
+                </p>
+
+                <p>
+                    Built a RESTful backend application to manage student
+                    records efficiently. Implemented CRUD operations with
+                    proper layered architecture and database integration.
+                </p>
+
+                <h4>Key Features</h4>
+
+                <ul>
+                    <li>Create Student Records</li>
+                    <li>Update Student Details</li>
+                    <li>Delete Student Records</li>
+                    <li>Search Students</li>
+                    <li>REST API Endpoints</li>
+                    <li>Database Integration</li>
+                </ul>
+
+                <p>
+                    <strong>Tech Stack:</strong>
+                    Java, Spring Boot, Hibernate, JPA, MySQL, REST API
+                </p>
+
+            </article>
+
+            <!-- Project 3 -->
+
+            <article class="card">
+
+                <h3>Employee Management System</h3>
+
+                <p class="meta">
+                    Enterprise Backend Project
+                </p>
+
+                <p>
+                    Designed a backend system for managing employee data in an
+                    organization. Implemented scalable REST APIs and database
+                    operations following industry-standard backend practices.
+                </p>
+
+                <h4>Key Features</h4>
+
+                <ul>
+                    <li>Add Employee</li>
+                    <li>Update Employee Information</li>
+                    <li>Delete Employee Records</li>
+                    <li>Search Employees</li>
+                    <li>RESTful API Development</li>
+                    <li>Database Persistence</li>
+                </ul>
+
+                <p>
+                    <strong>Tech Stack:</strong>
+                    Java, Spring Boot, Hibernate, MySQL, Maven, REST APIs
+                </p>
+
+            </article>
+
+        </div>
+
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <p class="copyright">© <span id="year"></span> Charchit Panchal</p>
-  </footer>
+</main>
 
-  <script src="script.js"></script>
+<footer class="site-footer">
+
+    <p class="copyright">
+        © <span id="year"></span> Charchit Panchal
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+```
